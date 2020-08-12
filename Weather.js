@@ -8,77 +8,77 @@ const weatherOptions = {
   Clouds: {
     iconName: "apple-icloud",
     gradient: ["#4DA0B0", "#D39D38"],
-    subtitle: "I know, it's boring",
+    subtitle: "No worres, I'll be your sunshine in the clouds",
   },
   Thunderstorm: {
     iconName: "weather-lightning",
     gradient: ["#373B44", "#4286f4"],
-    subtitle: "Hold me tight so that I won't be blown away",
+    subtitle: "Let me hold you tight so that you won't be blown away",
   },
   Drizzle: {
     iconName: "weather-lightning",
     gradient: ["#89F7FE", "#66A6FF"],
-    subtitle: "It's raining men, hallelujah",
+    subtitle: "Raindrops softly knocking on your heart",
   },
   Rain: {
     iconName: "weather-rainy",
     gradient: ["#00C6FB", "#005BEA"],
-    subtitle: "It's raining men, hallelujah",
+    subtitle: "Raindrops knocking on your heart",
   },
   Snow: {
     iconName: "weather-snowy-heavy",
     gradient: ["#7DE2FC", "#B9B6E5"],
-    subtitle: "Do you want to build a snowman with me? Ppo~",
+    subtitle: "Hey, cutie! Do you want to build a snowman with me?",
   },
   Mist: {
     iconName: "weather-fog",
     gradient: ["#D7D2CC", "#304352"],
-    subtitle: "It's like you have no glasses on.",
+    subtitle: "The hazy atmosphere is like your mystical charm",
   },
   Smoke: {
     iconName: "weather-fog",
     gradient: ["#D7D2CC", "#304352"],
-    subtitle: "Just don't go outside.",
+    subtitle: "The hazy atmosphere is like your mystical charm",
   },
   Haze: {
     iconName: "weather-hazy",
     gradient: ["#D7D2CC", "#304352"],
-    subtitle: "Just don't go outside.",
+    subtitle: "The hazy atmosphere is like your mystical charm",
   },
   Dust: {
     iconName: "weather-fog",
     gradient: ["#D7D2CC", "#304352"],
-    subtitle: "Thanks a lot China 🖕🏻",
+    subtitle: "I want your beauty, not dust, to cover this world",
   },
   Fog: {
     iconName: "weather-fog",
     gradient: ["#D7D2CC", "#304352"],
-    subtitle: "Just don't go outside.",
+    subtitle: "The hazy atmosphere is like your mystical charm",
   },
   Sand: {
     iconName: "weather-fog",
     gradient: ["#D7D2CC", "#304352"],
-    subtitle: "Just don't go outside.",
+    subtitle: "I want your beauty, not sand, to cover this world",
   },
   Ash: {
     iconName: "weather-fog",
     gradient: ["#D7D2CC", "#304352"],
-    subtitle: "Just don't go outside.",
+    subtitle: "I want your beauty, not ash, to cover this world",
   },
   Squall: {
     iconName: "weather-hurricane",
     gradient: ["#373B44", "#4286f4"],
-    subtitle: "Hold me tight so that I won't be blown away",
+    subtitle: "Let me hold you tight so that you won't be blown away",
   },
   Tornado: {
     iconName: "weather-hurricane",
     gradient: ["#373B44", "#4286f4"],
-    subtitle: "Hold me tight so that I won't be blown away",
+    subtitle: "Let me hold you tight so that you won't be blown away",
   },
   Clear: {
     iconName: "weather-sunny",
     gradient: ["#FF7300", "#FEF253"],
-    subtitle: "Give me gungdi-pangpang on my burnt ass",
+    subtitle: "The sun shining hot like you refreshes this world",
   },
 };
 
