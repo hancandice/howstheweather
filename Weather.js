@@ -84,7 +84,13 @@ const weatherOptions = {
 
 // formatter 설정에 오브젝트 key에 따옴표를 사용하지 않게 되어 있어, 저장하면서 formatter가 적용
 
-export default function Weather({ temp, condition, description }) {
+export default function Weather({
+  temp,
+  condition,
+  description,
+  location,
+  country,
+}) {
   return (
     <LinearGradient
       colors={weatherOptions[condition].gradient}
@@ -92,6 +98,11 @@ export default function Weather({ temp, condition, description }) {
     >
       <StatusBar barStyle="light-content" />
       <View style={styles.halfContainer}>
+        <View style={styles.location}>
+          <Text style={styles.locationCountry}>
+            {location}, {country}
+          </Text>
+        </View>
         <MaterialCommunityIcons
           name={weatherOptions[condition].iconName}
           size={96}
@@ -164,5 +175,17 @@ const styles = StyleSheet.create({
   textContainer: {
     alignItems: "flex-start",
     marginLeft: 10,
+  },
+  location: {
+    backgroundColor: "yellow",
+    paddingVertical: 10,
+    paddingHorizontal: 20,
+    borderRadius: 10,
+    marginVertical: 30,
+  },
+  locationCountry: {
+    color: "#2c2c2c",
+    fontWeight: "600",
+    fontSize: 20,
   },
 });
