@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "howstheweather",
-    "slug": "howstheweather",
+    "name": "romantic weather",
+    "slug": "romantic-weather",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,13 +13,16 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "description": ""
+    "description": "Current weather checking app with romantic descriptions",
+    "githubUrl": "https://github.com/hancandice/howstheweather"
   }
 }
